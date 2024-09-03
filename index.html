@@ -5,14 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Started</title>
+    <style>
+        .navbar li{
+            list-style: none;
+            float: left;
+            margin: 20px;
+        }
+        .navbar{
+            overflow: auto;
+            background-color: skyblue;
+        }
+        .navbar li a{
+            color: red;
+        }
+        .navbar a:hover{
+            background-color: green;
+            border-radius: 3px;
+            
+        }
+    </style>
 </head>
 <body>
-    <h1 id="heading-1">Hello from red</h1>
-    <h1 id="heading-2">Hello from red</h1>
-    <h1 class="class-3">Hello from red</h1>
-    <h1 id="heading-4">Hello from red</h1>
-    <p class="class-3">This is a simple Paragraph.</p>
-    <button>Click me !</button>
-    <button>Click me !</button>
-</body>
+    <div class="navbar">
+        <ul>
+            <li><a href="NexPage.html" target="_self">Home</a></li>
+            <li><a href="NexPage.html">Service</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contect us</a></li>
+        </ul>
+    </div>
+ </body>
 </html>
